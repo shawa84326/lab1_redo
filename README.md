@@ -10,4 +10,7 @@ Run the program?
 
                  The azure websites host app.py file into its workspace
                  Just visit to website "ankit25-techin510-lab1.azurewebsites.net"
-                 currently there is unknown errror in deployement to azure from github asked to professor but anable to find solution, will surely meet professor for diving deep into the error code
+                 
+                 There was unknown errror in deployement to azure from github asked to professor but anable to find solution, will surely meet professor for diving deep into the error code
+
+                 ----update --> All the problems are resolved and currently working fine, so this is update to readme to considering for regrading. Appreciate your consideration for the re-gradings
