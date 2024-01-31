@@ -11,10 +11,13 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+for output visit go to ankit25-tenchin510-lab1.azurewebsites.net
 
 ## What's Included
 
 - `app.py`: The main Flask application
+- 'picture.jpg' : Personal photo for website
+- 'requirements.txt': All the dependecies to be installed 
 
 ## Lessons Learned
 
@@ -25,4 +28,18 @@ pip install -r requirements.txt
 ## Questions / Uncertainties
 
 - What if I want to make the profile picture round?
+
+- I guess by using CSS we can achieve this
+-  st.markdown(
+        f"""
+        <style>
+            img {{
+                border-radius: 50%;
+                object-fit: cover;
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 - How to use a two column layout?
+- Two-Column Layout: st.columns(2) creates two columns, col1 and col2. The with col1 and with col2 blocks define the content within each column.
